@@ -56,7 +56,7 @@ class CustomThemeState extends State<CustomTheme> {
 
     // Here I was trying to make an If Else statemene, to getTheme() first, and if it's a null, to get initialThemeKey.
 
-    // _theme = if(MyThemes.stringToEnum(getTheme()) != null ) MyThemes.stringToEnum(getTheme()); else {MyThemes.getThemeFromKey(widget
+    // _theme = if(MyThemes.stringToEnum(getTheme()) != null ) MyThemes.stringToEnum(getTheme());  else {MyThemes.getThemeFromKey(widget
     //     .initialThemeKey); }
 
     super.initState();
