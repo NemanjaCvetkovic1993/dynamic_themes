@@ -6,7 +6,7 @@ import 'package:dynamic_themes/themes.dart';
 void main() {
   runApp(
     CustomTheme(
-      initialThemeKey: MyThemeKeys.LIGHT,
+      initialThemeKey: MyThemeKeys.PURPLE,
       child: MyApp(),
     ),
   );
