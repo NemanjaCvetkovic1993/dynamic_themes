@@ -4,7 +4,7 @@ enum MyThemeKeys { PURPLE, YELLOW, GREEN, RED, BLUE, BROWN, PINK, ORANGE }
 
 class MyThemes {
   static final ThemeData purpleTheme = ThemeData(
-    primaryColor: Colors.purple[700],
+    primaryColor: Colors.purple[700], 
     brightness: Brightness.dark,
   );
   static final ThemeData yellowTheme = ThemeData(
