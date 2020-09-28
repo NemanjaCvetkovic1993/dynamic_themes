@@ -29,19 +29,19 @@ class _HomeScreenState extends State<HomeScreen> {
               children: <Widget>[
                 RaisedButton(
                   onPressed: () {
-                    _changeTheme(context, MyThemeKeys.LIGHT);
+                    _changeTheme(context, MyThemeKeys.PURPLE);
                   },
                   child: Text("Light!"),
                 ),
                 RaisedButton(
                   onPressed: () {
-                    _changeTheme(context, MyThemeKeys.DARK);
+                    _changeTheme(context, MyThemeKeys.YELLOW);
                   },
                   child: Text("Dark!"),
                 ),
                 RaisedButton(
                   onPressed: () {
-                    _changeTheme(context, MyThemeKeys.DARKER);
+                    _changeTheme(context, MyThemeKeys.RED);
                   },
                   child: Text("Darker!"),
                 ),
