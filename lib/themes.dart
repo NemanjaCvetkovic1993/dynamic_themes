@@ -105,10 +105,3 @@ class MyThemes {
     }
   }
 }
-
-// Convert Enum to string
-String colorPurple = MyThemeKeys.PURPLE.toString();
-
-// Convert to enum
-MyThemeKeys f = MyThemeKeys.values
-    .firstWhere((e) => e.toString() == 'Fruit.' + colorPurple);
